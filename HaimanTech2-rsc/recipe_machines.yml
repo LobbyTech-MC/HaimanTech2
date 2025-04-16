@@ -646,7 +646,7 @@ MILK_HONEY_MACHINE:
   energyPerCraft: 50
   recipes:
     '1':
-      seconds: 1
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -658,17 +658,17 @@ MILK_HONEY_MACHINE:
           material: MILK_BUCKET
           amount: 1
     '2':
-      seconds: 3
+      seconds: 0
       input:
         1:
           material_type: mc
           material: GLASS_BOTTLE
-          amount: 8
+          amount: 16
       output:
         1:
           material_type: mc
           material: HONEY_BOTTLE
-          amount: 8
+          amount: 16
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 ANCIENT_DEBRIS_MACHINE:
@@ -11538,11 +11538,11 @@ HAIMAN_VOID_INGOT_PRODUCER:
   energyPerCraft: 3000
   recipes:
     '1':
-      seconds: 5
+      seconds: 1
       input:
         1:
-          material_type: slimefun
-          material: VOID_BIT
+          material_type: mc
+          material: COBBLESTONE
           amount: 64
       output:
         1:
@@ -13769,7 +13769,7 @@ MUSIC_DISC_PRODUCER:
           material: MUSIC_DISC_11
           amount: 1
     '13':
-      seconds: 100
+      seconds: 40
       input:
         1:
           material_type: mc
@@ -13781,11 +13781,11 @@ MUSIC_DISC_PRODUCER:
           material: MUSIC_DISC_PIGSTEP
           amount: 1
     '14':
-      seconds: 250
+      seconds: 40
       input:
         1:
-          material_type: slimefun
-          material: FUHEBAN
+          material_type: mc
+          material: SCULK_CATALYST
           amount: 1
       output:
         1:
@@ -25328,6 +25328,227 @@ HAIMAN_CARBON_PRESS_5:
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HM_ZJSPDFQ:
+  item:
+    name: '&4终极 &a食品堆肥器'
+    lore:
+      - ''
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b64x"
+      - '&8⇨ &e⚡&7 4000 J 可存储'
+      - '&8⇨ &e⚡&7 2000 J/s'
+    material: GREEN_TERRACOTTA
+  item_group: slime_customizer_slimefun_machine
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WITHER_PROOF_OBSIDIAN
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: REINFORCED_CLOTH
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WITHER_PROOF_OBSIDIAN
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: MEITUHEJIN_KUAI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: FOOD_COMPOSTER_2
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: MEITUHEJIN_KUAI
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: WITHER_PROOF_OBSIDIAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: REINFORCED_CLOTH
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: WITHER_PROOF_OBSIDIAN
+      amount: 1
+  capacity: 4000
+  energyPerCraft: 2000
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 0
+      input:
+        '1':
+          material_type: slimefun
+          material: ORGANIC_FOOD_WHEAT
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: FERTILIZER_WHEAT
+          amount: 4
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 0
+      input:
+        '1':
+          material_type: slimefun
+          material: ORGANIC_FOOD_CARROT
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: FERTILIZER_CARROT
+          amount: 4
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '3':
+      seconds: 0
+      input:
+        '1':
+          material_type: slimefun
+          material: ORGANIC_FOOD_POTATO
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: FERTILIZER_POTATO
+          amount: 4
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '4':
+      seconds: 0
+      input:
+        '1':
+          material_type: slimefun
+          material: ORGANIC_FOOD_SEEDS
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: FERTILIZER_SEEDS
+          amount: 4
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '5':
+      seconds: 0
+      input:
+        '1':
+          material_type: slimefun
+          material: ORGANIC_FOOD_BEETROOT
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: FERTILIZER_BEETROOT
+          amount: 4
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '6':
+      seconds: 0
+      input:
+        '1':
+          material_type: slimefun
+          material: ORGANIC_FOOD_MELON
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: FERTILIZER_MELON
+          amount: 4
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '7':
+      seconds: 0
+      input:
+        '1':
+          material_type: slimefun
+          material: ORGANIC_FOOD_APPLE
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: FERTILIZER_APPLE
+          amount: 4
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '8':
+      seconds: 0
+      input:
+        '1':
+          material_type: slimefun
+          material: ORGANIC_FOOD_KELP
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: FERTILIZER_KELP
+          amount: 4
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '9':
+      seconds: 0
+      input:
+        '1':
+          material_type: slimefun
+          material: ORGANIC_FOOD_SWEET_BERRIES
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: FERTILIZER_SWEET_BERRIES
+          amount: 4
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '10':
+      seconds: 0
+      input:
+        '1':
+          material_type: slimefun
+          material: ORGANIC_FOOD_COCOA
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: FERTILIZER_COCOA
+          amount: 4
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '11':
+      seconds: 0
+      input:
+        '1':
+          material_type: slimefun
+          material: ORGANIC_FOOD_SEAGRASS
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: FERTILIZER_SEAGRASS
+          amount: 4
+      chooseOne: false
+      forDisplay: false
+      hide: false
+  input: [19, 20, 28, 29]
+  output: [33, 34, 24, 25]
 HAIMAN_FUEL_MACHINE:
   lateInit: false
   item_group: slime_customizer
@@ -27562,7 +27783,7 @@ HAIMAN_DANGAO_HONGBEI:
         1:
           material_type: slimefun
           material: CHRISTMAS_FRUIT_CAKE
-          amount: 2
+          amount: 1
     '9':
       seconds: 2
       input:
@@ -29215,7 +29436,7 @@ HAIMAN_LU_CAT_MACHINE:
       amount: 1
     2:
       material_type: slimefun
-      material: FUHEBAN
+      material: ELECTRIC_MOTOR
       amount: 1
     3:
       material_type: slimefun
@@ -29227,7 +29448,7 @@ HAIMAN_LU_CAT_MACHINE:
       amount: 1
     5:
       material_type: slimefun
-      material: COOLING_UNIT
+      material: ADVANCED_CIRCUIT_BOARD
       amount: 1
     6:
       material_type: slimefun
@@ -29707,8 +29928,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
     '2':
       seconds: 1
@@ -29723,8 +29944,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
     '3':
       seconds: 1
@@ -29739,8 +29960,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
     '4':
       seconds: 1
@@ -29755,8 +29976,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
     '5':
       seconds: 1
@@ -29771,8 +29992,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
     '6':
       seconds: 1
@@ -29787,8 +30008,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
     '7':
       seconds: 1
@@ -29803,8 +30024,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
     '8':
       seconds: 1
@@ -29819,8 +30040,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
     '9':
       seconds: 1
@@ -29835,8 +30056,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -30863,6 +31084,234 @@ DIYUKONGJIAN:
           material_type: mc
           material: BLAZE_POWDER
           amount: 64
+    '14':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: NETHER_BRICK
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: NETHER_BRICK
+          amount: 64
+    '15':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: QUARTZ
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: QUARTZ
+          amount: 24
+    '16':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: TWISTING_VINES
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: TWISTING_VINES
+          amount: 32
+    '17':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: GLOWSTONE_DUST
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: GLOWSTONE_DUST
+          amount: 32
+    '18':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: WARPED_WART_BLOCK
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: WARPED_WART_BLOCK
+          amount: 32
+    '19':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: NETHER_WART_BLOCK
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: NETHER_WART_BLOCK
+          amount: 32
+    '20':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: WARPED_STEM
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: WARPED_STEM
+          amount: 32
+    '21':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: CRIMSON_STEM
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CRIMSON_STEM
+          amount: 32
+    '22':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: CRIMSON_NYLIUM
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CRIMSON_NYLIUM
+          amount: 32
+    '23':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: WARPED_NYLIUM
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: WARPED_NYLIUM
+          amount: 32
+    '24':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: SHROOMLIGHT
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SHROOMLIGHT
+          amount: 32
+    '25':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: MAGMA_BLOCK
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: MAGMA_BLOCK
+          amount: 48
+    '26':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: CRIMSON_FUNGUS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CRIMSON_FUNGUS
+          amount: 32
+    '27':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: WARPED_FUNGUS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: WARPED_FUNGUS
+          amount: 32
+    '28':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: WARPED_ROOTS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: WARPED_ROOTS
+          amount: 32
+    '29':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: CRIMSON_ROOTS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CRIMSON_ROOTS
+          amount: 32
+    '30':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: NETHER_SPROUTS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: NETHER_SPROUTS
+          amount: 32
+    '31':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: PORKCHOP
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: PIGLIN_HEAD
+          amount: 16
+    '32':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: BONE
+          amount: 64
+      output:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 16
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 MODIKONGJIAN:
@@ -31007,6 +31456,102 @@ MODIKONGJIAN:
           material_type: mc
           material: CHORUS_PLANT
           amount: 64
+    '8':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: END_ROD
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: END_ROD
+          amount: 64
+    '9':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: END_CRYSTAL
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: END_CRYSTAL
+          amount: 16
+    '10':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: PURPUR_BLOCK
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: PURPUR_BLOCK
+          amount: 64
+    '11':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: PURPUR_PILLAR
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: PURPUR_PILLAR
+          amount: 64
+    '12':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: SHULKER_SHELL
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SHULKER_SHELL
+          amount: 16
+    '13':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 16
+    '14':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: TORCH
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: TORCH
+          amount: 64
+    '15':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: OBSIDIAN
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: OBSIDIAN
+          amount: 32
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 MIJINGHUAYUAN:
@@ -31267,6 +31812,138 @@ MIJINGHUAYUAN:
           material_type: mc
           material: ALLIUM
           amount: 64
+    '18':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: BAMBOO
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: BAMBOO
+          amount: 64
+    '19':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: OAK_SAPLING
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: OAK_SAPLING
+          amount: 64
+    '20':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: SPRUCE_SAPLING
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SPRUCE_SAPLING
+          amount: 64
+    '21':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: BIRCH_SAPLING
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: BIRCH_SAPLING
+          amount: 64
+    '22':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: JUNGLE_SAPLING
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: JUNGLE_SAPLING
+          amount: 64
+    '23':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: ACACIA_SAPLING
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: ACACIA_SAPLING
+          amount: 64
+    '24':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: DARK_OAK_SAPLING
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: DARK_OAK_SAPLING
+          amount: 64
+    '25':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: CHERRY_SAPLING
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CHERRY_SAPLING
+          amount: 64
+    '26':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: MANGROVE_PROPAGULE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: MANGROVE_PROPAGULE
+          amount: 64
+    '27':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: LILY_PAD
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: LILY_PAD
+          amount: 32
+    '28':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: DEAD_BUSH
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: DEAD_BUSH
+          amount: 32
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 JINSHUJGC:
@@ -31853,7 +32530,7 @@ DIAOYUJI:
   energyPerCraft: 1024
   recipes:
     '1':
-      seconds: 4
+      seconds: 0
       input:
         1:
           material_type: slimefun
@@ -31867,9 +32544,9 @@ DIAOYUJI:
         1:
           material_type: mc
           material: COD
-          amount: 16
+          amount: 64
     '2':
-      seconds: 4
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -31883,9 +32560,9 @@ DIAOYUJI:
         1:
           material_type: mc
           material: SALMON
-          amount: 8
+          amount: 64
     '3':
-      seconds: 4
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -31899,9 +32576,9 @@ DIAOYUJI:
         1:
           material_type: mc
           material: PUFFERFISH
-          amount: 4
+          amount: 64
     '4':
-      seconds: 4
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -31915,9 +32592,9 @@ DIAOYUJI:
         1:
           material_type: mc
           material: TROPICAL_FISH
-          amount: 4
+          amount: 64
     '5':
-      seconds: 16
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -31931,9 +32608,9 @@ DIAOYUJI:
         1:
           material_type: saveditem
           material: DYLJ
-          amount: 4
+          amount: 8
     '6':
-      seconds: 60
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -31947,9 +32624,9 @@ DIAOYUJI:
         1:
           material_type: saveditem
           material: DYBZ
-          amount: 2
+          amount: 4
     '7':
-      seconds: 4
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -31965,7 +32642,7 @@ DIAOYUJI:
           material: SPONGE
           amount: 1
     '8':
-      seconds: 22
+      seconds: 5
       input:
         1:
           material_type: mc
@@ -32040,7 +32717,7 @@ VERSION_DIAOYUJI:
   energyPerCraft: 1024
   recipes:
     '1':
-      seconds: 4
+      seconds: 0
       input:
         1:
           material_type: slimefun
@@ -32054,9 +32731,9 @@ VERSION_DIAOYUJI:
         1:
           material_type: mc
           material: COD
-          amount: 16
+          amount: 64
     '2':
-      seconds: 4
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -32070,9 +32747,9 @@ VERSION_DIAOYUJI:
         1:
           material_type: mc
           material: SALMON
-          amount: 8
+          amount: 64
     '3':
-      seconds: 4
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -32086,9 +32763,9 @@ VERSION_DIAOYUJI:
         1:
           material_type: mc
           material: PUFFERFISH
-          amount: 4
+          amount: 64
     '4':
-      seconds: 4
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -32102,9 +32779,9 @@ VERSION_DIAOYUJI:
         1:
           material_type: mc
           material: TROPICAL_FISH
-          amount: 4
+          amount: 64
     '5':
-      seconds: 16
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -32118,9 +32795,9 @@ VERSION_DIAOYUJI:
         1:
           material_type: saveditem
           material: DYLJ
-          amount: 4
+          amount: 8
     '6':
-      seconds: 60
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -32134,9 +32811,9 @@ VERSION_DIAOYUJI:
         1:
           material_type: saveditem
           material: DYBZ
-          amount: 2
+          amount: 4
     '7':
-      seconds: 4
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -32152,7 +32829,7 @@ VERSION_DIAOYUJI:
           material: SPONGE
           amount: 1
     '8':
-      seconds: 22
+      seconds: 5
       input:
         1:
           material_type: mc
@@ -32550,6 +33227,18 @@ WANNENGGONGCHANG:
         1:
           material_type: mc
           material: PURPUR_BLOCK
+          amount: 48
+    '28':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: RED_NETHER_BRICKS
+          amount: 4
+      output:
+        1:
+          material_type: mc
+          material: RED_NETHER_BRICKS
           amount: 48
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -33571,7 +34260,7 @@ HAIMAN_YASUOJI:
       amount: 1
     2:
       material_type: slimefun
-      material: HM_CHAOPING_CIRCUIT_BOARD
+      material: LARGE_CAPACITOR
       amount: 1
     3:
       material_type: slimefun
@@ -33651,6 +34340,18 @@ HAIMAN_YASUOJI:
         1:
           material_type: slimefun
           material: PURE_BONE_DUST
+          amount: 1
+    '5':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAG_THOR
+          amount: 36
+      output:
+        1:
+          material_type: slimefun
+          material: MEITUHEJIN_KUAI
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -46755,6 +47456,18 @@ HAIMAN_SHOUGONGTAI:
         1:
           material_type: slimefun
           material: RESTORED_BACKPACK
+          amount: 1
+    '10':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: STRING
+          amount: 4
+      output:
+        1:
+          material_type: mc
+          material: PHANTOM_MEMBRANE
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
