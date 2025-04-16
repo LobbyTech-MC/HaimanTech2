@@ -26681,19 +26681,19 @@ HAIMAN_BOOK_MACHINE:
           material_type: saveditem
           material: TE_GUIDE
           amount: 1
+#    '8':
+#      seconds: 3
+#      input:
+#        1:
+#          material_type: mc
+#          material: ENDER_EYE
+#          amount: 1
+#      output:
+#        1:
+#          material_type: slimefun
+#          material: TE_INFO
+#          amount: 1
     '8':
-      seconds: 3
-      input:
-        1:
-          material_type: mc
-          material: ENDER_EYE
-          amount: 1
-      output:
-        1:
-          material_type: slimefun
-          material: TE_INFO
-          amount: 1
-    '9':
       seconds: 16
       input:
         1:
@@ -26705,7 +26705,7 @@ HAIMAN_BOOK_MACHINE:
           material_type: saveditem
           material: SFBOOK
           amount: 1
-    '10':
+    '9':
       seconds: 3
       input:
         1:
@@ -26717,7 +26717,7 @@ HAIMAN_BOOK_MACHINE:
           material_type: mc
           material: CHISELED_BOOKSHELF
           amount: 2
-    '11':
+    '10':
       seconds: 2
       input:
         1:
