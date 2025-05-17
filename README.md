@@ -15,6 +15,9 @@
 ![下载数](https://img.shields.io/github/downloads/haiman233/HaimanTech2/total)
 
 ## 前置插件需求
+
+**强烈不建议服主或管理员使用/rsc reload指令对海曼科技院进行热重载，这将导致玩家丢失有关海曼科技院的研究数据**
+
 前置：
 - Slimefun
 - GuizhanLibPlugin
@@ -26,6 +29,7 @@
 
 软前置：
 - Gastronomicon
+- SlimyTreeTaps
 
 自BETA-2.0版本起，海曼科技院不再需要DynaTech，但是BETA-2.0以前的版本仍然需要安装DynaTech
 
