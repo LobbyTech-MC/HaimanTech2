@@ -1936,13 +1936,13 @@ cjhjmn:
   levelCost: 20
   items:
   - HAIMAN_CJHJMNQ
-daceshiji:
-  lateInit: false
-  id: 110101096
-  name: 大测试时代已经来了！
-  levelCost: 4000
-  items:
-  - HAIMAN_DACESHIJI
-  - HM_TEST_BLOCK_2
-  - HM_TEST_BLOCK_3
-  - HM_TEST_BLOCK_4
+#daceshiji:
+#  lateInit: false
+#  id: 110101096
+#  name: 大测试时代已经来了！
+#  levelCost: 4000
+#  items:
+#  - HAIMAN_DACESHIJI
+#  - HM_TEST_BLOCK_2
+#  - HM_TEST_BLOCK_3
+#  - HM_TEST_BLOCK_4

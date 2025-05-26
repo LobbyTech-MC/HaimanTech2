@@ -51122,122 +51122,122 @@ HAIMAN_CJHJMNQ:
   register:
     conditions:
       - version >= 1.21.5
-HAIMAN_DACESHIJI:
-  lateInit: false
-  item_group: slime_customizer_21
-  item:
-    name: '&f&l大测试机'
-    lore:
-      - '&7啊哈哈哈哈，现在是大测试时代'
-      - '&b机器'
-      - '&8⇨ &e⚡&7 500000 J 可存储'
-      - '&8⇨ &e⚡&7 200000 J/s'
-    material_type: skull_hash
-    material: afdf9bd64f5befc5f815488191272a7d59ecf38744211e22a12a47134c816f1b
-  speed: 1
-  recipe_type: ENHANCED_CRAFTING_TABLE
-  recipe:
-    1:
-      material_type: slimefun
-      material: HAIMAN_INGOT
-      amount: 1
-    2:
-      material_type: slimefun
-      material: HM_CHAOPING_CIRCUIT_BOARD
-      amount: 1
-    3:
-      material_type: slimefun
-      material: HAIMAN_INGOT
-      amount: 1
-    4:
-      material_type: slimefun
-      material: TIANXUAN_MADA
-      amount: 1
-    5:
-      material_type: slimefun
-      material: HM_SHENQUAN_HEXIN
-      amount: 1
-    6:
-      material_type: slimefun
-      material: TIANXUAN_MADA
-      amount: 1
-    7:
-      material_type: slimefun
-      material: MINECRAFT_SOURCE_STONE
-      amount: 1
-    8:
-      material_type: slimefun
-      material: MINECRAFT_SOURCE_STONE
-      amount: 1
-    9:
-      material_type: slimefun
-      material: MINECRAFT_SOURCE_STONE
-      amount: 1
-  capacity: 500000
-  energyPerCraft: 100000
-  recipes:
-    '1':
-      seconds: 5000
-      input:
-        1:
-          material_type: mc
-          material: STRUCTURE_BLOCK
-          amount: 4
-      output:
-        1:
-          material_type: mc
-          material: TEST_BLOCK
-          amount: 1
-    '2':
-      seconds: 1
-      input:
-        1:
-          material_type: mc
-          material: TEST_BLOCK
-          amount: 1
-      output:
-        1:
-          material_type: slimefun
-          material: HM_TEST_BLOCK_2
-          amount: 1
-    '3':
-      seconds: 1
-      input:
-        1:
-          material_type: slimefun
-          material: HM_TEST_BLOCK_2
-          amount: 1
-      output:
-        1:
-          material_type: slimefun
-          material: HM_TEST_BLOCK_3
-          amount: 1
-    '4':
-      seconds: 1
-      input:
-        1:
-          material_type: slimefun
-          material: HM_TEST_BLOCK_3
-          amount: 1
-      output:
-        1:
-          material_type: slimefun
-          material: HM_TEST_BLOCK_4
-          amount: 1
-    '5':
-      seconds: 1
-      input:
-        1:
-          material_type: slimefun
-          material: HM_TEST_BLOCK_4
-          amount: 1
-      output:
-        1:
-          material_type: mc
-          material: TEST_INSTANCE_BLOCK
-          amount: 1
-  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
-  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
-  register:
-    conditions:
-      - version >= 1.21.5
+#HAIMAN_DACESHIJI:
+#  lateInit: false
+#  item_group: slime_customizer_21
+#  item:
+#    name: '&f&l大测试机'
+#    lore:
+#      - '&7啊哈哈哈哈，现在是大测试时代'
+#      - '&b机器'
+#      - '&8⇨ &e⚡&7 500000 J 可存储'
+#      - '&8⇨ &e⚡&7 200000 J/s'
+#    material_type: skull_hash
+#    material: afdf9bd64f5befc5f815488191272a7d59ecf38744211e22a12a47134c816f1b
+#  speed: 1
+#  recipe_type: ENHANCED_CRAFTING_TABLE
+#  recipe:
+#    1:
+#      material_type: slimefun
+#      material: HAIMAN_INGOT
+#      amount: 1
+#    2:
+#      material_type: slimefun
+#      material: HM_CHAOPING_CIRCUIT_BOARD
+#      amount: 1
+#    3:
+#      material_type: slimefun
+#      material: HAIMAN_INGOT
+#      amount: 1
+#    4:
+#      material_type: slimefun
+#      material: TIANXUAN_MADA
+#      amount: 1
+#    5:
+#      material_type: slimefun
+#      material: HM_SHENQUAN_HEXIN
+#      amount: 1
+#    6:
+#      material_type: slimefun
+#      material: TIANXUAN_MADA
+#      amount: 1
+#    7:
+#      material_type: slimefun
+#      material: MINECRAFT_SOURCE_STONE
+#      amount: 1
+#    8:
+#      material_type: slimefun
+#      material: MINECRAFT_SOURCE_STONE
+#      amount: 1
+#    9:
+#      material_type: slimefun
+#      material: MINECRAFT_SOURCE_STONE
+#      amount: 1
+#  capacity: 500000
+#  energyPerCraft: 100000
+#  recipes:
+#    '1':
+#      seconds: 5000
+#      input:
+#        1:
+#          material_type: mc
+#          material: STRUCTURE_BLOCK
+#          amount: 4
+#      output:
+#        1:
+#          material_type: mc
+#          material: TEST_BLOCK
+#          amount: 1
+#    '2':
+#      seconds: 1
+#      input:
+#        1:
+#          material_type: mc
+#          material: TEST_BLOCK
+#          amount: 1
+#      output:
+#        1:
+#          material_type: slimefun
+#          material: HM_TEST_BLOCK_2
+#          amount: 1
+#    '3':
+#      seconds: 1
+#      input:
+#        1:
+#          material_type: slimefun
+#          material: HM_TEST_BLOCK_2
+#          amount: 1
+#      output:
+#        1:
+#          material_type: slimefun
+#          material: HM_TEST_BLOCK_3
+#          amount: 1
+#    '4':
+#      seconds: 1
+#      input:
+#        1:
+#          material_type: slimefun
+#          material: HM_TEST_BLOCK_3
+#          amount: 1
+#      output:
+#        1:
+#          material_type: slimefun
+#          material: HM_TEST_BLOCK_4
+#          amount: 1
+#    '5':
+#      seconds: 1
+#      input:
+#        1:
+#          material_type: slimefun
+#          material: HM_TEST_BLOCK_4
+#          amount: 1
+#      output:
+#        1:
+#          material_type: mc
+#          material: TEST_INSTANCE_BLOCK
+#          amount: 1
+#  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+#  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+#  register:
+#    conditions:
+#      - version >= 1.21.5
